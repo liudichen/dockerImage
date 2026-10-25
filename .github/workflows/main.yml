@@ -32,7 +32,7 @@ jobs:
         if: steps.check.outputs.needs-updating == 'true' || steps.check.outputs.needs-building == 'true'
         uses: docker/build-push-action@v7
         with:
-          context: .
+          context: ./pgvector-with-pgroonga
           push: true
           tags: liudichen/pgvector-with-pgroonga:pg18
           pull: true
