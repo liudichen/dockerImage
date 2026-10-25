@@ -1,4 +1,4 @@
-name: Auto-rebuild dockerImage: liudichen/pgvector-with-pgroonga:pg18
+name: Auto-rebuild dockerImage liudichen/pgvector-with-pgroonga
 
 on:
   schedule:
