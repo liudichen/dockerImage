@@ -36,3 +36,4 @@ jobs:
           push: true
           tags: liudichen/pgvector-with-pgroonga:pg18
           pull: true
+          platforms: linux/amd64
