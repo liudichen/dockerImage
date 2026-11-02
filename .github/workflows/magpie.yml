@@ -1,8 +1,8 @@
-name: Sync Magpie Image from GHCR to Docker Hub
+name: Sync Magpie Image
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 concurrency:
