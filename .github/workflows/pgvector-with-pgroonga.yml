@@ -1,4 +1,4 @@
-name: Sync liudichen/pgvector-with-pgroonga
+name: Sync pgvector-with-pgroonga Image
 
 on:
   schedule:
